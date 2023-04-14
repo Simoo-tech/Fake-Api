@@ -1,0 +1,24 @@
+.nav {}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+
+}
+
+.row ul {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.row ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.row ul a:hover {
+  color: blue;
+}
